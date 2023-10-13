@@ -3,7 +3,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About/About";
-import NavBarData from "./Components/NavBar/NavBarData";
 
 
 import {
@@ -29,7 +28,7 @@ function App() {
   return (
     <div>
      
-      <NavBarData/>
+      
       <RouterProvider router={router} />
       
     </div>
