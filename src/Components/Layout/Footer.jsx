@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Footer = ({footer}) => {
+const Footer = ({footer,bgColor}) => {
   return (
-    <div className=' flex items-center h-[60px] fixed-bottom  bg-gray-500' >{footer}</div>
+    <div className= {`${bgColor} h-[60px] flex items-center fixed-bottom `} >{footer}</div>
   )
 }
 
