@@ -3,12 +3,13 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About/About";
-import Cart_Bar from "./Pages/Cart_Bar";
 
+import Menu from "./Pages/Menu";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
       element:<About/>,
     },
     {
-      path: "/about",
-      element:<Cart_Bar/>,
+      path: "/menu",
+      element:<Menu/>,
     },
   ]);
   

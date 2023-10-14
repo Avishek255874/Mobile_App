@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer_menu = () => {
   return (
-    <div className="w-full flex items-center  justify-between px-3">
+    <div className="w-full flex items-center  justify-between px-3 cursor-pointer">
 
       <i className="text-gray-500 fa-solid fa-house" />
       <i className=" text-gray-400 fa-solid fa-chart-bar" />
