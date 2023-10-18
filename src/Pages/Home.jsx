@@ -11,6 +11,7 @@ import Student_card from "../Components/Student-info/Student_card";
 import RAnk_icon from "../Components/RAnk/RAnk_icon";
 import Time from "../Components/Time_view/Time";
 import Classes from "../Components/Subject_classes/Classes";
+import { Schedule } from "../utils";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
         <br />
 
         <div className="flex">
+        
           <RAnk_icon icons="fas fa-graduation-cap" title="Classes" />
           <RAnk_icon icons="fa-solid fa-file-lines" title="Exam" />
           <RAnk_icon icons="fa-solid fa-copy" title="Assignment" />
@@ -50,16 +52,12 @@ const Home = () => {
       <br />
       <Time />
       <br/>
-    
+      {Schedule?.map(i=>(
+        <Classes Colors={i?.color} MOnth={i?.Month} Date={i?.date} Subject={i?.Subject} room={i?.roomDetail} Time={i?.time}/>
 
+        ))}
 
-<Classes Colors="bg-violet-500" MOnth="Jan" Date="21" Subject="Economy Class"/>
-<Classes Colors="bg-amber-500"  MOnth="Feb" Date="22" Subject="Geography Class"/>
-<Classes Colors="bg-blue-500"  MOnth="Mar" Date="23" Subject="Accountancy Class"/>
-
-
-
-    </Layout>
+ </Layout>
   );
 };
 

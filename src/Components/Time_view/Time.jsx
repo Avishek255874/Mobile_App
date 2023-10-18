@@ -2,7 +2,7 @@ import React from "react";
 
 const Time = () => {
   return (
-    <div className="px-2 flex justify-between items-center">
+    <div className="px-3 flex justify-between items-center">
       <div className="flex gap-2 items-center">
         <i class="  text-gray-800 fa-regular fa-calendar" />
         <p className="text-[16px] text-gray-600 font-semibold">Schedule</p>
