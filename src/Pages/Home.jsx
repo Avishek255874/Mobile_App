@@ -50,7 +50,7 @@ const Home = () => {
         </div>
       </div>
       <br />
-      <Time />
+      <Time iconss="fa-regular fa-calendar" Schedule="Schedule" />
       <br/>
       {Schedule?.map(i=>(
         <Classes Colors={i?.color} MOnth={i?.Month} Date={i?.date} Subject={i?.Subject} room={i?.roomDetail} Time={i?.time}/>

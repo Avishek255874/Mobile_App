@@ -31,4 +31,12 @@ export const Schedule = [
     roomDetail: "Room A3 , 3nd Floor",
     color:"bg-violet-500"
   },
+  {
+    date: "21",
+    Month: "Jan",
+    Subject: "English class",
+    time: "5:00 - 6:00 AM",
+    roomDetail: "Room A3 , 3nd Floor",
+    color:"bg-lime-500"
+  },
 ];
