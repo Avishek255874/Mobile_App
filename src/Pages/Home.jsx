@@ -15,7 +15,7 @@ import { Schedule } from "../utils";
 
 const Home = () => {
   return (
-    <Layout footer={<Footer_menu />} header={<New_Header />} bgColor="bg-white">
+    <Layout footer={<Menu_footer/>} header={<New_Header />} bgColor="bg-white">
       <div className="p-[20px] ">
         <UserProfile />
         <br />
@@ -50,7 +50,7 @@ const Home = () => {
         </div>
       </div>
       <br />
-      <Time iconss="fa-regular fa-calendar" Schedule="Schedule" />
+      <Time iconss="fa-regular fa-calendar" Schedule="Schedule" view="View All" />
       <br/>
       {Schedule?.map(i=>(
         <Classes Colors={i?.color} MOnth={i?.Month} Date={i?.date} Subject={i?.Subject} room={i?.roomDetail} Time={i?.time}/>
