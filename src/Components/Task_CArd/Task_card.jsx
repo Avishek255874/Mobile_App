@@ -1,4 +1,5 @@
 import React from "react";
+import ImageName from "../ImageName/ImageName";
 
 const Task_card = ({
   Name,
@@ -10,6 +11,7 @@ const Task_card = ({
   Myphoto,
   RoundColor,
   TextColor,
+  Created
 }) => {
   return (
     <div className={`${BgcoloR}   p-3  rounded drop-shadow-sm `}>
@@ -29,23 +31,8 @@ const Task_card = ({
           <br />
           {buttomtext}
         </p>
-        <p className="text-[10px] text-gray-400">Created By</p>
-      </div>
-
-      <div>
-        <div className="flex">
-          <div className=" p-1">
-            <img
-              className="inline-block h-5 w-5 rounded-full "
-              src={Myphoto}
-              alt=""
-            />
-          </div>
-          <div className=" p-2 ">
-            <p className="text-[10px] fw-bold">{Name}</p>
-          </div>
-        </div>
-      </div>
+  </div>
+ <ImageName Created={Created} Myphoto={Myphoto} Name={Name}/>
     </div>
   );
 };

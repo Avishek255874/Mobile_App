@@ -13,6 +13,7 @@ import Time from "../../Components/Time_view/Time";
 import To_Do from "../../Components/To-Do_head/To_Do";
 import Summary_box from "../../Components/summary/Summary_box";
 import Task_tab from "../../features/Task/Task_tab";
+import ImageName from "../../Components/ImageName/ImageName";
 
 const About = () => {
   return (
@@ -38,15 +39,17 @@ const About = () => {
             BgcoloR={i?.BgcoloR}
             TextColor={i?.TextColor}
             RoundColor={i?.RoundColor}
+            Created={i?.Created}
           />
         ))}
       </div>
       <br />
       <Time iconss="fa-solid fa-list-check" Schedule="Task" />
 
-     
       <br />
-      <Task_tab/>
+      <Task_tab />
+      
+    
     </Layout>
   );
 };
