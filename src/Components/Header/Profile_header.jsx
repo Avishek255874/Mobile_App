@@ -11,7 +11,7 @@ const Profile_header = () => {
                 alt=""
             />
             <div className='ml-3 '>
-            <p>Avishek Shaarma</p>
+            <p>Monu Sharma</p>
             <p  className='text-[12px] text-gray-500'>Male 21 yr</p>
             </div>
             

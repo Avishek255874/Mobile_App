@@ -9,7 +9,7 @@ const UserProfile = () => {
         alt=""
       />
       <div className="  ps-3">
-        <p className="fw-semibold">Avishek Sharma</p>
+        <p className="fw-semibold">Avishek </p>
         <p className="text-[11px] text-gray-500"> ID: 1540563669</p>
         <p className="text-[10px] text-gray-500">Male , 21yr</p>
       </div>
