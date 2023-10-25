@@ -1,9 +1,8 @@
 {
-                    "name": "My React PWA",
-                    "short_name": "React PWA",
-                    "start_url": "/",
-                    "display": "standalone",
-                    "background_color": "#ffffff",
-                    "theme_color": "#000000"
-                   
-                  }
+  "name": "My React PWA",
+  "short_name": "React PWA",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
