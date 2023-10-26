@@ -27,7 +27,7 @@ const About = () => {
       </div>
       <Task />
 
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between  gap-1">
         {Cards?.map((i) => (
           <Task_card
             circletext={i?.circletext}

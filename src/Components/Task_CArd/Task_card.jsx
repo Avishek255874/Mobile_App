@@ -24,7 +24,7 @@ const Task_card = ({
         <i className="fa-solid fa-ellipsis-vertical " />
       </div>
       <div>
-        <p className="fw-bold  pb-2">
+        <p className="fw-bold  ">
           {Uppertext}
           <br />
           {middletext}
