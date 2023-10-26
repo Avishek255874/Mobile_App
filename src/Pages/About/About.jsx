@@ -27,7 +27,7 @@ const About = () => {
       </div>
       <Task />
 
-      <div className="flex justify-between truncate gap-1">
+      <div className="flex justify-between truncate  overflow-x-auto gap-2 ">
         {Cards?.map((i) => (
           <Task_card
             circletext={i?.circletext}
