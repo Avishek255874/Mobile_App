@@ -10,12 +10,19 @@ const Menu_footer = () => {
           <i className=" text-gray-400 fa-solid fa-folder-closed" />
 
     </NavLink>  
+    <NavLink to="/DateCalander" activeClassName="text-lime-300">
       <div class="rounded-circle text-center h-12 w-12 bg-lime-300 drop-shadow-lg d-flex justify-content-center align-items-center">
-        <i class=" text-gray-600 fa-solid fa-calendar-days"></i>
+        <i class=" text-gray-600 fa-solid fa-calendar-days"/>
       </div>
+    </NavLink>
+    
+    <NavLink to="/GraphData" activeClassName="text-lime-300">   
+       <i className=" text-gray-400 fa-solid fa-chart-bar" />
 
-      <i className=" text-gray-400 fa-solid fa-chart-bar" />
+    </NavLink>
+    <NavLink to="/Setting" activeClassName="text-lime-300">
       <i className=" text-gray-400 fa-solid fa-gear" />
+      </NavLink>
     </div>
   );
 };

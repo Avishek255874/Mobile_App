@@ -13,11 +13,15 @@ import Time from "../Components/Time_view/Time";
 import Classes from "../Components/Subject_classes/Classes";
 import { Schedule } from "../utils";
 
+
+
+
 const Home = () => {
   return (
     <Layout footer={<Menu_footer/>} header={<New_Header />} bgColor="bg-white">
       <div className="p-[20px] ">
         <UserProfile />
+ 
         <br />
         <div className="row  border-2 border-gray-100 rounded">
           <div className="col-4">
