@@ -18,6 +18,9 @@ import fileImg from "../assets/fileImg.svg"
 import userImg from "../assets/userImg.svg"
 import moreImg from "../assets/moreImg.svg"
 import bookImg from "../assets/book.svg"
+import userIcon from "../assets/userIcon.svg"
+import scholer from "../assets/scholer.svg"
+import leaf from "../assets/leaf.svg"
 
 
 
@@ -33,17 +36,17 @@ const Home = () => {
           <div className="col-4">
             <Student_card
               Detail="Student"
-              icon={reactImage}
+              icon={scholer}
               caption="2nd year"
             />
           </div>
           <div className="col-4 border-x-2 border-gray-100  my-2">
-            <Student_card Detail="Presence" icon={userImg} caption="100%" />
+            <Student_card Detail="Presence" icon={userIcon} caption="100%" />
           </div>
           <div className="col-4">
             <Student_card
               Detail="Internal Score"
-              icon={bookImg}
+              icon={leaf}
               caption="85/100"
             />
           </div>

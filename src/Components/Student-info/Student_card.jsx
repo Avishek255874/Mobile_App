@@ -6,8 +6,8 @@ const Student_card = ({ bOrder, Detail, caption, icon }) => {
       <div className="p-1 ">
         <p className="text-[11px] text-gray-500 pb-2 ">{Detail}</p>
         <div className="d-flex justify-center items-center">
-          <img src={icon} className=" w-[30px] h-[30px]" />
-          <p className="ps-2 fw-semibold text-[14px]">{caption} </p>
+          <img src={icon} className=" w-[20px] h-[20px]" />
+          <p className="ps-2 fw-semibold text-[12px]">{caption} </p>
         </div>
       </div>
     </div>
