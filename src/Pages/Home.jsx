@@ -17,6 +17,7 @@ import documentImg from "../assets/docment.svg"
 import fileImg from "../assets/fileImg.svg"
 import userImg from "../assets/userImg.svg"
 import moreImg from "../assets/moreImg.svg"
+import bookImg from "../assets/book.svg"
 
 
 
@@ -32,17 +33,17 @@ const Home = () => {
           <div className="col-4">
             <Student_card
               Detail="Student"
-              icon="fas fa-graduation-cap"
+              icon={reactImage}
               caption="2nd year"
             />
           </div>
           <div className="col-4 border-x-2 border-gray-100  my-2">
-            <Student_card Detail="Presence" icon="fas fa-user" caption="100%" />
+            <Student_card Detail="Presence" icon={userImg} caption="100%" />
           </div>
           <div className="col-4">
             <Student_card
               Detail="Internal Score"
-              icon="fab fa-leanpub"
+              icon={bookImg}
               caption="85/100"
             />
           </div>
@@ -54,8 +55,8 @@ const Home = () => {
         <RAnk_icon icons={reactImage} title="Classes"/>
         <RAnk_icon icons={documentImg} title="Exam" />
           <RAnk_icon icons={fileImg} title="Assignment" />
-          <RAnk_icon icons={userImg}title="Presence"/>
-          <RAnk_icon icons={moreImg}title="More"/>
+          <RAnk_icon icons={userImg} title="Presence"/>
+          <RAnk_icon icons={moreImg} title="More"/>
         </div>
       </div>
       <br />
