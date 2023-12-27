@@ -12,6 +12,11 @@ import RAnk_icon from "../Components/RAnk/RAnk_icon";
 import Time from "../Components/Time_view/Time";
 import Classes from "../Components/Subject_classes/Classes";
 import { Schedule } from "../utils";
+import reactImage from "../assets/class.svg";
+import documentImg from "../assets/docment.svg"
+import fileImg from "../assets/fileImg.svg"
+import userImg from "../assets/userImg.svg"
+import moreImg from "../assets/moreImg.svg"
 
 
 
@@ -46,11 +51,11 @@ const Home = () => {
 
         <div className="flex">
         
-          <RAnk_icon icons="fas fa-graduation-cap" title="Classes" />
-          <RAnk_icon icons="fa-solid fa-file-lines" title="Exam" />
-          <RAnk_icon icons="fa-solid fa-copy" title="Assignment" />
-          <RAnk_icon icons="fas fa-user-large" title="Presence" />
-          <RAnk_icon icons="fa-solid fa-ellipsis-vertical" title="More" />
+        <RAnk_icon icons={reactImage} title="Classes"/>
+        <RAnk_icon icons={documentImg} title="Exam" />
+          <RAnk_icon icons={fileImg} title="Assignment" />
+          <RAnk_icon icons={userImg}title="Presence"/>
+          <RAnk_icon icons={moreImg}title="More"/>
         </div>
       </div>
       <br />

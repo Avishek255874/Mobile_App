@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="289.852" height="267.804" viewBox="0 0 289.852 267.804">
+  <defs>
+    <filter id="Path_1" x="83.623" y="0" width="183.757" height="242.945" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2" x="0" y="0.622" width="289.852" height="267.182" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1-2" x="83.623" y="0" width="183.757" height="242.945" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2-2" x="0" y="0.622" width="289.852" height="267.182" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_17" data-name="Group 17" transform="translate(-1241.074 -83)">
+    <g id="Group_12" data-name="Group 12" transform="translate(245.641 51.344)">
+      <g id="Group_9" data-name="Group 9" transform="translate(-155.819 70.59)">
+        <g id="Group_6" data-name="Group 6" transform="translate(416 -167)">
+          <g id="Group_4" data-name="Group 4" transform="translate(741.777 128.066)">
+            <g id="Group_1" data-name="Group 1" opacity="0.24">
+              <g transform="matrix(1, 0, 0, 1, -6.52, 0)" filter="url(#Path_1)">
+                <path id="Path_1-3" data-name="Path 1" d="M82.878,0c34.066,2.146,82.878,49.816,82.878,111.268s-26.933,116.5-82.878,111.268S0,172.719,0,111.267,48.812-2.146,82.878,0Z" transform="translate(89.62 0.06)" fill="#ffcaf8"/>
+              </g>
+              <g transform="matrix(1, 0, 0, 1, -6.52, 0)" filter="url(#Path_2)">
+                <path id="Path_2-3" data-name="Path 2" d="M83.643-.309c34.371,1.973,83.421,48.989,83.148,109.88S139.091,225.132,82.653,220.2-.769,171.207-.5,110.316,49.272-2.282,83.643-.309Z" transform="matrix(-0.44, 0.9, -0.9, -0.44, 277.31, 97.73)" fill="#b2ddef"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_13" data-name="Group 13">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="27.5" cy="27.5" r="27.5" transform="translate(1383 195)"/>
+      <circle id="Ellipse_2-2" data-name="Ellipse 2" cx="27.5" cy="27.5" r="27.5" transform="translate(1464 195)"/>
+      <circle id="Ellipse_2-3" data-name="Ellipse 2" cx="27.5" cy="27.5" r="27.5" transform="translate(1383 276)"/>
+      <circle id="Ellipse_2-4" data-name="Ellipse 2" cx="27.5" cy="27.5" r="27.5" transform="translate(1464 276)"/>
+    </g>
+    <g id="Group_16" data-name="Group 16">
+      <g id="Group_15" data-name="Group 15" transform="translate(245.641 51.344)">
+        <g id="Group_9-2" data-name="Group 9" transform="translate(-155.819 70.59)">
+          <g id="Group_6-2" data-name="Group 6" transform="translate(416 -167)">
+            <g id="Group_4-2" data-name="Group 4" transform="translate(741.777 128.066)">
+              <g id="Group_1-2" data-name="Group 1" opacity="0.24">
+                <g transform="matrix(1, 0, 0, 1, -6.52, 0)" filter="url(#Path_1-2)">
+                  <path id="Path_1-4" data-name="Path 1" d="M82.878,0c34.066,2.146,82.878,49.816,82.878,111.268s-26.933,116.5-82.878,111.268S0,172.719,0,111.267,48.812-2.146,82.878,0Z" transform="translate(89.62 0.06)" fill="#ffcaf8"/>
+                </g>
+                <g transform="matrix(1, 0, 0, 1, -6.52, 0)" filter="url(#Path_2-2)">
+                  <path id="Path_2-4" data-name="Path 2" d="M83.643-.309c34.371,1.973,83.421,48.989,83.148,109.88S139.091,225.132,82.653,220.2-.769,171.207-.5,110.316,49.272-2.282,83.643-.309Z" transform="matrix(-0.44, 0.9, -0.9, -0.44, 277.31, 97.73)" fill="#b2ddef"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_14" data-name="Group 14">
+        <circle id="Ellipse_2-5" data-name="Ellipse 2" cx="27.5" cy="27.5" r="27.5" transform="translate(1383 195)"/>
+        <circle id="Ellipse_2-6" data-name="Ellipse 2" cx="27.5" cy="27.5" r="27.5" transform="translate(1464 195)"/>
+        <circle id="Ellipse_2-7" data-name="Ellipse 2" cx="27.5" cy="27.5" r="27.5" transform="translate(1383 276)"/>
+        <circle id="Ellipse_2-8" data-name="Ellipse 2" cx="27.5" cy="27.5" r="27.5" transform="translate(1464 276)"/>
+      </g>
+    </g>
+  </g>
+</svg>

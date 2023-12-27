@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="319.093" height="283.161" viewBox="0 0 319.093 283.161">
+  <defs>
+    <filter id="Path_1" x="84.223" y="0" width="186" height="243.411" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2" x="0" y="0" width="292.447" height="268.934" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-988.777 -291.066)">
+    <g id="Group_1" data-name="Group 1" transform="translate(142 -34.87)" opacity="0.44">
+      <g transform="matrix(1, 0, 0, 1, 846.78, 325.94)" filter="url(#Path_1)">
+        <path id="Path_1-2" data-name="Path 1" d="M84,0c34.527,2.15,84,49.92,84,111.5S140.7,228.246,84,223,0,173.08,0,111.5,49.473-2.15,84,0Z" transform="translate(90.22 0.06)" fill="#ffd2d2"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 846.78, 325.94)" filter="url(#Path_2)">
+        <path id="Path_2-2" data-name="Path 2" d="M84,0c34.527,2.15,84,49.92,84,111.5S140.7,228.246,84,223,0,173.08,0,111.5,49.473-2.15,84,0Z" transform="matrix(-0.44, 0.9, -0.9, -0.44, 280.39, 97.91)" fill="#a273ff"/>
+      </g>
+    </g>
+    <g id="Icon_core-school" data-name="Icon core-school" transform="translate(1091.924 378.104)">
+      <path id="Path_3" data-name="Path 3" d="M129.987,58.955,76.563,89.006,23.139,58.955V27.2L7.875,18.724V67.881l68.688,38.637,68.688-38.637V18.724L129.987,27.2Z" transform="translate(32.535 89.604)"/>
+      <path id="Path_4" data-name="Path 4" d="M109.1,3.233,2.25,58.635V71.865L109.1,131.223l91.584-50.878v42.149h15.264V58.635Zm76.32,68.131-15.264,8.48L109.1,113.765,48.042,79.843l-15.264-8.48L22.2,65.486l86.9-45.059L196,65.486Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

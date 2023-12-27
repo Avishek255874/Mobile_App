@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="289.852" height="273.934" viewBox="0 0 289.852 273.934">
+  <defs>
+    <filter id="Path_1" x="83.623" y="0" width="183.757" height="242.945" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2" x="0" y="0.622" width="289.852" height="267.182" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(-735.252 -128.066)">
+    <g id="Group_4" data-name="Group 4" transform="translate(741.777 128.066)">
+      <g id="Group_1" data-name="Group 1" opacity="0.44">
+        <g transform="matrix(1, 0, 0, 1, -6.52, 0)" filter="url(#Path_1)">
+          <path id="Path_1-2" data-name="Path 1" d="M82.878,0c34.066,2.146,82.878,49.816,82.878,111.268s-26.933,116.5-82.878,111.268S0,172.719,0,111.267,48.812-2.146,82.878,0Z" transform="translate(89.62 0.06)" fill="#ffe3e3"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -6.52, 0)" filter="url(#Path_2)">
+          <path id="Path_2-2" data-name="Path 2" d="M83.643-.309c34.371,1.973,83.421,48.989,83.148,109.88S139.091,225.132,82.653,220.2-.769,171.207-.5,110.316,49.272-2.282,83.643-.309Z" transform="matrix(-0.44, 0.9, -0.9, -0.44, 277.31, 97.73)" fill="#73d5ff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(863.355 230.785)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(-0.355 0.215)" fill="none" stroke="#000" stroke-width="12">
+        <rect width="161" height="171" rx="16" stroke="none"/>
+        <rect x="6" y="6" width="149" height="159" rx="10" fill="none"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" x2="63.306" transform="translate(30.989 100.762)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="12"/>
+      <line id="Line_2" data-name="Line 2" x2="96.467" transform="translate(30.644 127.836)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="12"/>
+      <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(103.645 0.215)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="12">
+        <path d="M0,0H42A15,15,0,0,1,57,15V58a0,0,0,0,1,0,0H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M6,6H42a9,9,0,0,1,9,9V52a0,0,0,0,1,0,0H9a3,3,0,0,1-3-3V6A0,0,0,0,1,6,6Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
