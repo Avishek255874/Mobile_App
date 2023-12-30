@@ -2,7 +2,7 @@ import React from 'react'
 
 const StudentName = () => {
   return (
-    <div className='flex justify-between items-center'>
+    <div className='flex justify-between items-center ps-3 overflow-auto'>
         <div className='bg-gray-100 flex items-center p-1 rounded-full'>
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJOeo0jhCc60ikYbMRbSMHerx3jWbVqJWLllehfefs1dv1r18mfFrl1gqIidqSUw1pHxA&usqp=CAU" className='h-6 w-6 rounded-circle' />
           <span className='text-[8px] px-2'>Amit Saha</span>

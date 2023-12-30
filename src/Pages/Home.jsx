@@ -32,18 +32,18 @@ const Home = () => {
         <UserProfile />
  
         <br />
-        <div className="row  border-2 border-gray-100 rounded">
-          <div className="col-4">
+        <div className="row  border-2 border-gray-100 rounded ">
+          <div className="col-4  my-2">
             <Student_card
               Detail="Student"
               icon={scholer}
               caption="2nd year"
             />
           </div>
-          <div className="col-4 border-x-2 border-gray-100  my-2">
+          <div className="col-4   border-x-2 my-2">
             <Student_card Detail="Presence" icon={userIcon} caption="100%" />
           </div>
-          <div className="col-4">
+          <div className="col-4  my-2">
             <Student_card
               Detail="Internal Score"
               icon={leaf}
