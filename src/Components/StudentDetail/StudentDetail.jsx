@@ -15,8 +15,8 @@ const StudentDetail = () => {
     
      <br/>
      <StudentName/>
-     <br/>
-     <StudentName/>
+   
+    
     </div>
   );
 };
